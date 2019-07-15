@@ -1,0 +1,11 @@
+name: pycon2019
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - jupyterlab=0.35
+  - pymc3
+  - mkl-service
+  - matplotlib
+  - pip:
+    - arviz
