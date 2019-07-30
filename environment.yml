@@ -7,5 +7,7 @@ dependencies:
   - pymc3
   - mkl-service
   - matplotlib
+  - pandas
+  - seaborn
   - pip:
     - arviz
