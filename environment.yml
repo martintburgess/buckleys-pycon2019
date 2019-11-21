@@ -1,6 +1,8 @@
 name: pycon2019
 channels:
   - conda-forge
+  - anaconda
+  - pip
 dependencies:
   - python=3.6
   - jupyterlab=0.35
@@ -9,5 +11,7 @@ dependencies:
   - matplotlib
   - pandas
   - seaborn
+  - libpython
+  -  m2w64-toolchain
   - pip:
     - arviz
